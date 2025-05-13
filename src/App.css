@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.game{
+width: 600px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.choices{
+  display: flex;
+  justify-content: space-between;
+}
+.board{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: white;
+}
+.player{
+  border: 1px solid #333;
+  display: inline-block;
+  background: #111;
+  border-radius: 5px;
+}
+.player button{
+  background-color: #111;
+  color: white;
+}
+.result{
+  background: green;
+  border-radius: 5px;
+  color: white;
+}
